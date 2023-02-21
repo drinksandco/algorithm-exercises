@@ -1,0 +1,37 @@
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/.phpunit.cache
+/.phpunit.result.cache
+/config/secrets/prod/prod.decrypt.private.php
+/cache/
+/coverage/
+/infection.log
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> baldinof/roadrunner-bundle ###
+/bin/rr
+/rr
+###< baldinof/roadrunner-bundle ###
+
+/.serverless/
+/node_modules/
+/package-lock.json
+
+.composer
+.idea
+*.iml
+.cache
+.bash_history
+.env
+.php-version
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###

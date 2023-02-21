@@ -1,0 +1,25 @@
+{
+    "name": "kpicaza/algorithms",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kpicaza\\Algorithms\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Algorithms\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kpicaza",
+            "email": "kpicaza.sound@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^6.2",
+        "phpunit/phpunit": "^9.0"
+    }
+}
